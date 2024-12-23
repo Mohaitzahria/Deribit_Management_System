@@ -1,0 +1,10 @@
+^C:\USERS\HP\DESKTOP\TEST\GOQUANT_TEST_API\BUILD3\CMAKEFILES\7EAE348D7FA27049F8D6E7540958858E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/hp/Desktop/TEST/GoQuant_test_api -BC:/Users/hp/Desktop/TEST/GoQuant_test_api/build3 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/hp/Desktop/TEST/GoQuant_test_api/build3/DeribitOrderManagement.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

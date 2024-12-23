@@ -1,0 +1,3 @@
+C:/Users/hp/Desktop/TEST/GoQuant_test_api/build3/CMakeFiles/Deribit_Management_System.dir
+C:/Users/hp/Desktop/TEST/GoQuant_test_api/build3/CMakeFiles/ALL_BUILD.dir
+C:/Users/hp/Desktop/TEST/GoQuant_test_api/build3/CMakeFiles/ZERO_CHECK.dir

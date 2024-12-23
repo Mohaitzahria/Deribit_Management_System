@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\hp\Desktop\TEST\GoQuant_test_api\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hp\Desktop\TEST\GoQuant_test_api\src\order_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hp\Desktop\TEST\GoQuant_test_api\src\websocket_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hp\Desktop\TEST\GoQuant_test_api\src\utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hp\Desktop\TEST\GoQuant_test_api\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BFB6D83A-AE49-3997-917D-A9657315B694}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

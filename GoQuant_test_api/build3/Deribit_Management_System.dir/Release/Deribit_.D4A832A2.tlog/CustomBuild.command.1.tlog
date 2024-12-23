@@ -1,0 +1,10 @@
+^C:\USERS\HP\DESKTOP\TEST\GOQUANT_TEST_API\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/hp/Desktop/TEST/GoQuant_test_api -BC:/Users/hp/Desktop/TEST/GoQuant_test_api/build3 --check-stamp-file C:/Users/hp/Desktop/TEST/GoQuant_test_api/build3/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
