@@ -1,18 +1,16 @@
----
-title: "Deribit Order Management System"
-description: "A Command-Line Interface (CLI) application for managing orders on Deribit, coded in C++ and requiring the libcurl and JSON libraries."
----
+# Deribit Order Execution and Management System
 
-# Deribit Order Management System
+## Overview
 
-A Command-Line Interface (CLI) application for managing orders on Deribit, coded in C++ and requiring the libcurl and JSON libraries. This tool enables users to interact with the Deribit API for efficient cryptocurrency trading directly from the terminal.
+This project is a C++ application designed to interact with the Deribit API, enabling efficient management of cryptocurrency trading operations. It supports features such as placing, canceling, and modifying orders, retrieving the order book, and viewing active trading positions. The application is specifically configured for use on the Deribit testnet.
 
 ## Features
-
-- **Order Management**: Place, cancel, and modify orders.
-- **Market Data**: Retrieve and display the current order book.
-- **Position Management**: View active trading positions.
 - **Authentication**: Securely handle API credentials.
+- **Place Orders**: Submit buy or sell orders for a specified cryptocurrency.
+- **Cancel Orders**: Cancel existing orders by providing their IDs.
+- **Modify Orders**: Change the parameters of existing orders.
+- **Get Order Book**: Retrieve the current order book for a specified cryptocurrency.
+- **View Current Positions**: Display current trading positions.
 
 ## Prerequisites
 
@@ -24,17 +22,10 @@ A Command-Line Interface (CLI) application for managing orders on Deribit, coded
 
 1. **Clone the Repository**:
     ```sh
-    git clone https://github.com/yourusername/deribit_order_management.git
-    cd deribit_order_management
+    git clone https://github.com/yourusername/Deribit_Management_System.git
+    cd Deribit_Management_System
     ```
-
-2. **Install Dependencies**:
-    ```sh
-    vcpkg install curl
-    vcpkg install nlohmann-json
-    ```
-
-3. **Build the Application**:
+2. **Build the Application**:
     ```sh
     mkdir build
     cd build
@@ -57,7 +48,7 @@ const std::string SECRET_KEY = "your_secret_key_here"; // Replace with your secr
 
 1. **Run the Application**:
     ```sh
-    ./deribit_order_management
+    ./Deribit_Management_System
     ```
 
 2. **Available Commands**:
@@ -87,5 +78,5 @@ const std::string SECRET_KEY = "your_secret_key_here"; // Replace with your secr
 
 ## Contact
 
-For any inquiries or issues, please contact Othmane Nouakchi at Othman.nouakchi007@gmail.com.
+For any inquiries or issues, please contact Mohamed Ait Zahria at mohammedaitzahria@gmail.com.
 
