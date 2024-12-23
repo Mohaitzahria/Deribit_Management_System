@@ -25,14 +25,7 @@ This project is a C++ application designed to interact with the Deribit API, ena
     git clone https://github.com/yourusername/Deribit_Management_System.git
     cd Deribit_Management_System
     ```
-
-2. **Install Dependencies**:
-    ```sh
-    vcpkg install curl
-    vcpkg install nlohmann-json
-    ```
-
-3. **Build the Application**:
+2. **Build the Application**:
     ```sh
     mkdir build
     cd build
@@ -55,7 +48,7 @@ const std::string SECRET_KEY = "your_secret_key_here"; // Replace with your secr
 
 1. **Run the Application**:
     ```sh
-    ./deribit_order_management
+    ./Deribit_Management_System
     ```
 
 2. **Available Commands**:
